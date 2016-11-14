@@ -1,11 +1,10 @@
 #include <algorithm>
 
-#include <core/runtime_assert.h>
+#include "runtime_assert.h"
 
 #include "LSTMNetwork.h"
 
 using namespace std;
-using namespace helper::core;
 
 namespace app
 {

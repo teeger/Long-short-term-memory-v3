@@ -1,12 +1,14 @@
 #include <iostream>
 #include <fstream>
 
-#include <helper.h>
+#include "format.h"
+#include "print.h"
+#include "progress.h"
+#include "kbhit.h"
 
 #include "LSTMNetwork.h"
 
 using namespace app;
-using namespace helper::core;
 using namespace std;
 
 int main()
